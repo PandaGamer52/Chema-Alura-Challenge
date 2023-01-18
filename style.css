@@ -508,13 +508,227 @@ textarea{
     top: 92%;
     left: 0%;
     width: 100vw;
+    height: 10%;
     z-index: 5;
     position: absolute;
     background: transparent;
-    font-family: 'Righteous', cursive;
     text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+ 
 
   }
+  .github{
+    
+    height: 50px;
+    width: 50px;
+    background: #1a0f27;
+    box-shadow:  5px 5px 13px #0a0610,
+             -5px -5px 13px #2a183e;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .github img{
+    opacity: 1;
+    transition: opacity 1s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateX(21px);
+  }
+  
+  .github p{
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    right: 32%;
+    
+  }
+  .github:hover{
+    transition: 1s;
+    width: 115px;
+    border-radius: 25px;
+  }
+  .github:hover p{
+    transition: 1s;
+    transform: scale(1.8);
+    top: 73%;
+    opacity: 1;
+    
+  }
+  .github:hover img{
+    transition: 1s;
+    opacity: 0;
+    
+  }
+ 
+  .linkedin{
+    height: 50px;
+    width: 50px;
+    background: #1a0f27;
+    box-shadow:  5px 5px 13px #0a0610,
+             -5px -5px 13px #2a183e;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+  }
+  .linkedin img{
+    opacity: 1;
+    transition: opacity 1s;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateX(25px);
+  }
+  .linkedin p{
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    right: 25%;
+    
+  }
+  .linkedin:hover{
+    transition: 1s;
+    width: 115px;
+    border-radius: 25px;
+  }
+  .linkedin:hover p{
+    transition: 1s;
+    transform: scale(1.8);
+    top: 73%;
+    opacity: 1;
+    
+  }
+  .linkedin:hover img{
+    transition: 1s;
+    opacity: 0;
+    
+  }
+  .alura{
+    height: 50px;
+    width: 50px;
+    background: #1a0f27;
+    box-shadow:  5px 5px 13px #0a0610,
+             -5px -5px 13px #2a183e;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .alura img{
+    opacity: 1;
+    transition: opacity 1s;
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateX(17px);
+    
+    
+  }
+  .alura p{
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    right: 33%;
+    
+    
+  }
+  .alura:hover{
+    transition: 1s;
+    width: 115px;
+    border-radius: 25px;
+  }
+  .alura:hover p{
+    transition: 1s;
+    transform: scale(1.8);
+    top: 73%;
+    opacity: 1;
+    
+  }
+  .alura:hover img{
+    transition: 1s;
+    opacity: 0;
+  }
+  .instagram{
+    height: 50px;
+    width: 50px;
+    background: #1a0f27;
+    box-shadow:  5px 5px 13px #0a0610,
+             -5px -5px 13px #2a183e;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .instagram img{
+    opacity: 1;
+    transition: opacity 1s;
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translateX(27.9px);
+    
+    
+  }
+  .instagram p{
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    right: 25%;
+    
+    
+    
+  }
+  .instagram:hover{
+    transition: 1s;
+    width: 115px;
+    border-radius: 25px;
+  }
+  .instagram:hover p{
+    transition: 1s;
+    transform: scale(1.8);
+    top: 73%;
+    opacity: 1;
+    
+  }
+  .instagram:hover img{
+    transition: 1s;
+    opacity: 0;
+  }
+  
   @media screen and (max-width:480px){
     .contenedor{
         width: 100vw;
