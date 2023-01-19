@@ -519,6 +519,13 @@ textarea{
  
 
   }
+  a {
+    color: #dcbadb;
+    text-decoration: none;
+}
+  a:hover{
+    font-weight: bold;
+  }
   .github{
     
     height: 50px;
@@ -534,7 +541,7 @@ textarea{
   }
   .github img{
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -543,7 +550,7 @@ textarea{
   
   .github p{
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0s;
     font-size: 10px;
     color: white;
     font-weight: bold;
@@ -557,12 +564,15 @@ textarea{
     transition: 1s;
     width: 115px;
     border-radius: 25px;
+    cursor: pointer;
   }
   .github:hover p{
     transition: 1s;
+    font-family: 'Righteous', cursive;
     transform: scale(1.8);
     top: 73%;
     opacity: 1;
+    
     
   }
   .github:hover img{
@@ -586,7 +596,7 @@ textarea{
   }
   .linkedin img{
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -594,7 +604,7 @@ textarea{
   }
   .linkedin p{
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0s;
     font-size: 10px;
     color: white;
     font-weight: bold;
@@ -611,6 +621,7 @@ textarea{
   }
   .linkedin:hover p{
     transition: 1s;
+    font-family: 'Righteous', cursive;
     transform: scale(1.8);
     top: 73%;
     opacity: 1;
@@ -636,7 +647,7 @@ textarea{
   }
   .alura img{
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
     clip-path: circle(50% at 50% 50%);
     object-fit: cover;
     width: 100%;
@@ -647,7 +658,7 @@ textarea{
   }
   .alura p{
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0s;
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -665,6 +676,7 @@ textarea{
   }
   .alura:hover p{
     transition: 1s;
+    font-family: 'Righteous', cursive;
     transform: scale(1.8);
     top: 73%;
     opacity: 1;
@@ -689,7 +701,7 @@ textarea{
   }
   .instagram img{
     opacity: 1;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
     clip-path: circle(50% at 50% 50%);
     object-fit: cover;
     width: 100%;
@@ -700,7 +712,7 @@ textarea{
   }
   .instagram p{
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 0s;
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -719,6 +731,7 @@ textarea{
   }
   .instagram:hover p{
     transition: 1s;
+    font-family: 'Righteous', cursive;
     transform: scale(1.8);
     top: 73%;
     opacity: 1;
